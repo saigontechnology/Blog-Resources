@@ -1,0 +1,42 @@
+.scroll-container {
+  height: 2000px;
+  position: relative;
+}
+
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: red;
+  transform-origin: 0%;
+}
+
+.wrap-scroll-content {
+  position: sticky;
+  top: calc((100vh - 450px) / 2);
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-list-scroll {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.scroll-item {
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

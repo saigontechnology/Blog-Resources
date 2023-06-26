@@ -1,0 +1,16 @@
+.box-transition {
+  background-color: green;
+}
+
+.element__opacity {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.element__background {
+  background-color: red;
+  transition: background-color 0.3s ease;
+}
+
+.element__background:hover {
+  background-color: blue;
+}

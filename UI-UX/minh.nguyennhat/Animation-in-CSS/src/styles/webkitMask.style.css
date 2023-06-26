@@ -1,0 +1,11 @@
+.webkit-mask-wrap-image {
+  -webkit-mask-image: url("../assets/images/mask.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  display: flex;
+}
+
+.webkit-mask-wrap-image img {
+  height: calc(100vh - 100px);
+}
